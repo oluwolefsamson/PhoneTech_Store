@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Coin from '../coin/Coin'
-import LazyLoad from 'react-lazyload'
+
 
 const Hero = () => {
   return (
@@ -22,9 +22,7 @@ const Hero = () => {
             
         </div>
        <div className='second'>
-        <LazyLoad height={200} offset={100}>
               <img src='hero.jpg' alt='' fill/>
-          </ LazyLoad>
         </div>
     </section>
   )
