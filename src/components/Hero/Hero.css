@@ -187,6 +187,12 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .second img {
+        width: 415px;
+    }
+}
+
 
 
 @media screen and (max-width: 390px) {
