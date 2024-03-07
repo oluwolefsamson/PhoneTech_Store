@@ -273,6 +273,13 @@
 }
 
 @media screen and (max-width: 360px) {
+
+    .hero-img1 img {
+        width: 300px;
+        height: 50vh;
+        
+      }
+
     .second img {
         width: 350px;
     }
