@@ -9,6 +9,11 @@
     font-style: normal;
     font-size: large;
     border-bottom: 1px solid #c4b8b8;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    
     
   }
 
@@ -54,12 +59,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
   }
   
   .navbar-links ul li a { 
     color: #fff;
     text-decoration: none;
     padding: 10px;
+  
+
   }
 
   .navbar .button {
@@ -138,16 +146,16 @@
     .navbar-links {
       flex-direction: column;
       position: absolute;
-      top: 110px;
-      left: 1;
-      right: 1;
-      background-color: #fff;
-      width: 90%;
+      top: 90px;
+      left: 0;
+      background-color: #ddd8d8;
+      width: 100%;
       align-items: center;
       justify-content: center;
-      padding: 10px 0;
+      padding: 25px 0;
       box-sizing: border-box;
       transition: all 0.3s ease;
+     
     }
   
     .navbar-links.active {
@@ -165,6 +173,7 @@
   
     .navbar-links ul li {
       margin: 1px 0; /* Adjust spacing */
+      
     }
   }
 @media screen and (max-width: 425px) {
@@ -176,7 +185,11 @@
   }
 
   .navbar-links ul li a {
-    color: black;
+    color: rgb(126, 117, 117);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: large;
   }
 }
   

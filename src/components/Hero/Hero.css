@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 14rem 2rem 0 2rem;
     font-family: "Roboto", sans-serif;
     gap: 4rem;
     width: 100%;
     background-color: #141630;
     height: fit-content;
+    
 }
 
 .hero-container .first {
@@ -87,6 +88,12 @@
     height: 800px;
 }
 
+@media screen and (max-width: 1440px) {
+    .second img {
+        width: 1430px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     .first h2 {
@@ -156,6 +163,7 @@
 
     .hero-container {
         gap: 1rem;
+        padding-top: 150px;
     }
 
     .hero-container .first {

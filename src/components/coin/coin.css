@@ -13,6 +13,7 @@
     bottom: 0;
     animation: rotate_4001510 7s infinite linear;
     transform-style: preserve-3d;
+    z-index: 100px;
   }
   
   .coin img {
