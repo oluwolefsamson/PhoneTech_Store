@@ -177,7 +177,7 @@
    }
 
     .second img {
-        width: 415px;
+        width: 445px;
         height: 250px;
     }
 
@@ -207,8 +207,3 @@
     }
 }
 
-@media screen and (max-width: 419px) {
-    .second img {
-        width: 315px;
-    }
-}
