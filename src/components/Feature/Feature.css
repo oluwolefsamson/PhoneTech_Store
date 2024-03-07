@@ -18,7 +18,7 @@
 
 .first-column h2 {
     font-size: 50px;
-    color: rgb(99, 95, 95);
+    color: blue;
     font-weight: 900;
     
 }
@@ -26,7 +26,7 @@
 .first-column .first-span {
     font-size: 25px;
     font-weight: 800;
-    color: rgb(83, 77, 77);
+    color: rgb(81, 77, 83);
     line-height: 35px;
 }
 
@@ -37,8 +37,8 @@
     gap: 2rem;
     justify-content: space-between;
     font-size: 20px;
-    font-weight: 800;
-    color: rgb(150, 140, 140);
+    
+    
 
 
 }
@@ -54,18 +54,27 @@
 
 .text-con span:nth-child(1) {
     font-weight: 900;
-    color: rgb(44, 44, 44);
+    color: rgb(18, 63, 18);
     
 }
 
 .text-con span:nth-child(2) {
     line-height: 25px;
     width: 90%;
+    color: rgb(32, 30, 30);
+    font-weight: 400;
+    font-style: normal;
 }
 
 .second-column img {
     height: 70vh;
     width: 800px;
+}
+
+@media screen and (max-width: 1440px) {
+    .second-column img {
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 1024px) {

@@ -8,20 +8,20 @@ const Feature = () => {
     <section className='f-container'>
       <div className='first-column'>
         <h2>Discover the Best Deals on Phones at Our Online Store</h2>
-        <span className='first-span'>Get accss to the free shipping, 24/7 customer support, 
+        <span className='first-span'>Get access to the free shipping, 24/7 customer support, 
           and exclusive member discounts.
         </span>
 
         <div className='text'>
           <div className='text-con'>
-            <span>Free Shipping<MdOutlineLocalShipping className='ship-icon' size={40} color='rgb(150, 140, 140)'/></span>
+            <span>Free Shipping<MdOutlineLocalShipping  size={40} color='rgb(18, 63, 18)'/></span>
             <span>Enjoy the convenience of having your 
               new phone delivered to your doorstep for free.
             </span>
           </div>
 
           <div className='text-con'>
-            <span>24/7 Support<MdSupportAgent className='support-icon' size={40} color='rgb(150, 140, 140)'/></span>
+            <span>24/7 Support<MdSupportAgent className='support-icon' size={40} color='rgb(18, 63, 18)'/></span>
             <span>Our dedicated support team is available round
               the clock to assist you.
             </span>
