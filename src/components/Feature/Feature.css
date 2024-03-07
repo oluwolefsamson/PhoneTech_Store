@@ -18,7 +18,7 @@
 
 .first-column h2 {
     font-size: 50px;
-    color: blue;
+    color: rgb(41, 41, 219);
     font-weight: 900;
     
 }
@@ -86,8 +86,7 @@
     }
 
     .first-column h2 {
-        font-size: 20px;
-        color: rgb(99, 95, 95);
+        font-size: 30px;
         font-weight: 900;
         
     }
@@ -133,7 +132,6 @@
 
     .first-column h2 {
         font-size: 20px;
-        color: rgb(99, 95, 95);
         font-weight: 900;
         
     }

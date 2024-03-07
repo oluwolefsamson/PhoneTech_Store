@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import Coin from '../coin/Coin'
+
 
 
 const Hero = () => {
@@ -14,8 +14,8 @@ const Hero = () => {
                         <button>Learn More</button>
                 </div> 
             </div>
-            <div>
-             < Coin />
+            <div className='hero-img1'>
+             <img src='hero-img1.jpg' alt='hero-img'/>
             </div>
             
                 
