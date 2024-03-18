@@ -1,5 +1,5 @@
 const links = [
-    { name: 'Assetss', href: '#' },
+    { name: 'Assets', href: '#' },
     { name: 'New products', href: '#' },
     { name: 'Our values', href: '#' },
     { name: 'About us', href: '#' },

@@ -8,8 +8,11 @@ export default function PromoSection() {
                 Summer phones are finally here
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer collection will smart devices from the harsh elements of a world that doesn't care
-                if you live or die.
+                Get ready to soak up the sun and capture all your summer adventures with our 
+                latest lineup of summer-ready smartphones at our company. 
+                Whether you're lounging by the pool, hitting the beach, or embarking on outdoor 
+                adventures, our summer phones are designed to keep up with your active lifestyle 
+                while capturing every moment in stunning detail.
               </p>
             </div>
             <div>

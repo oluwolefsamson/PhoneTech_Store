@@ -82,6 +82,7 @@
     cursor: pointer;
     color: #fff;
     z-index: 1;
+    background-color: #4f4f4f;
   }
   
   .navbar .button:before {
