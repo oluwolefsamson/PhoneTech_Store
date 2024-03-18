@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src='logo.jpg' className='logo' alt='logoimg' />
+        <img src='logo.jpg' className='logo' alt='logoimg' href="#" />
       </div>
       <button className="navbar-toggle" onClick={toggleNavbar}>
         <span className="navbar-icon">&#9776;</span>
@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><a href="/about">About</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/contact">More</a></li>
-          <button class="button">Sign Up</button>
+          <button class="button" href='#'>Sign Up</button>
 
         </ul>
         

@@ -14,16 +14,16 @@ const Feature = () => {
 
         <div className='text'>
           <div className='text-con'>
-            <span>Free Shipping<MdOutlineLocalShipping  size={40} color='rgb(18, 63, 18)'/></span>
+            <span>Free Shipping<MdOutlineLocalShipping  size={25} color='#141630'/></span>
             <span>Enjoy the convenience of having your 
               new phone delivered to your doorstep for free.
             </span>
           </div>
 
           <div className='text-con'>
-            <span>24/7 Support<MdSupportAgent className='support-icon' size={40} color='rgb(18, 63, 18)'/></span>
+            <span>24/7 Support<MdSupportAgent  size={25} color='#141630'/></span>
             <span>Our dedicated support team is available round
-              the clock to assist you.
+              the clock to assist you. We are always at your Service.
             </span>
           </div>
         </div>

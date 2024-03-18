@@ -15,15 +15,15 @@ const Hero = () => {
                 </div> 
             </div>
             <div className='hero-img1'>
-             <img src='hero-img1.jpg' alt='hero-img'/>
+             <img src='hero-img1.jpg' alt='hero-img' loading='lazy'/>
             </div>
             
                 
             
         </div>
-       <div className='second'>
+       {/* <div className='second'>
               <img src='hero.jpg' alt='' fill/>
-        </div>
+        </div> */}
     </section>
   )
 }

@@ -80,7 +80,7 @@
     overflow: hidden;
     font-size: 19px;
     cursor: pointer;
-    color: black;
+    color: #fff;
     z-index: 1;
   }
   
@@ -133,6 +133,13 @@
   
 
   @media screen and (min-width: 768px) {
+
+    .logo {
+      height: 50px;
+      width: 50px;
+      border-radius: 10px 0;
+    }
+
     .navbar-icon {
         display: none;
     }
@@ -148,7 +155,7 @@
       position: absolute;
       top: 90px;
       left: 0;
-      background-color: #ddd8d8;
+      background-color: #141630;
       width: 100%;
       align-items: center;
       justify-content: center;
@@ -179,9 +186,9 @@
 @media screen and (max-width: 425px) {
 
   .logo {
-    height: 70px;
-    width: 70px;
-    border-radius: 20px 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px 0;
   }
 
   .navbar-links ul li a {
