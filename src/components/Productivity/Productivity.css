@@ -1,0 +1,10 @@
+.productivity-con {
+    background-color: #141630;
+}
+
+
+@media screen and (max-width: 425px) {
+    .productivity-con {
+        margin-bottom: 1rem;
+    }
+}

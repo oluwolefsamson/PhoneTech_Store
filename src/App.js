@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/Navbar';
 import ProductList from './components/ProductList/ProductList';
 import Productivity from './components/Productivity/Productivity';
 import PromoSection from './components/PromoSection/PromoSection';
+import Team from './components/Team/Team';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       < PromoSection />
       < ProductList />
       < AboutUs />
+      < Team />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react"
-
+import './ProductList.css'
 /*
   This example requires some changes to your config:
   
@@ -72,7 +72,7 @@ const products = [
         href: '#',
         price: '$35',
         imageSrc: 'pro10.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageAlt: 'Iphone product',
       },
 
       {
@@ -88,9 +88,9 @@ const products = [
   
   export default function ProductList() {
     return (
-      <div className="bg-white">
+      <div className="productlist-con">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-10">
                       Our Product Lists
               </h1>
   
