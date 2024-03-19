@@ -72,17 +72,18 @@
 
   .navbar .button {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 5px 15px;
     border: 1px solid #4f4f4f;
     border-radius: 4px;
     transition: all 0.2s ease-in;
     position: relative;
     overflow: hidden;
-    font-size: 19px;
+    font-size: 15px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
     background-color: #4f4f4f;
+    
   }
   
   .navbar .button:before {
