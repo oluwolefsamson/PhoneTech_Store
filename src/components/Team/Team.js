@@ -51,8 +51,13 @@ const people = [
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <h2 
+            data-aos="flip-left"
+            className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
+            <p 
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="mt-6 text-lg leading-8 text-gray-600">
                 At PhoneTech, we believe that strong leadership is the cornerstone of our success. Meet the visionaries and strategists who drive our 
                 company forward, shaping the future of mobile technology and leading us towards new horizons
             </p>

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img src='logo.jpg' className='logo' alt='logoimg' href="#" />
+        <img src='logo.jpg' className='logo' alt='logoimg' />
       </div>
       <button className="navbar-toggle" onClick={toggleNavbar}>
         <span className="navbar-icon">&#9776;</span>

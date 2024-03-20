@@ -90,7 +90,9 @@ const products = [
     return (
       <div className="productlist-con">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-10">
+              <h1 
+              data-aos="zoom-out-left"
+              className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-10">
                       Our Product Lists
               </h1>
   
@@ -99,6 +101,7 @@ const products = [
               <a key={product.id} href={product.href} className="group">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                   <img
+                    data-aos="zoom-in-down"
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="h-full w-full object-cover object-center group-hover:opacity-75"

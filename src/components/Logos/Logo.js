@@ -2,7 +2,11 @@ import React from "react"
 export default function Logo() {
     return (
       <div className="bg-white py-10 sm:py-15">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div 
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
             Trusted by the world’s most innovative teams
           </h2>

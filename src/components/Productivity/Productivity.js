@@ -20,12 +20,20 @@ export default function Productivity() {
               </defs>
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              <h2 
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 Boost your productivity.
                 <br />
                 Start using our smartphones today.
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p 
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="mt-6 text-lg leading-8 text-gray-300">
                 Are you ready to take your productivity to new heights? Look no further than our cutting-edge 
                 smartphones at our company. With powerful features, sleek designs, and intuitive interfaces, 
                 our devices are designed to help you accomplish more, whether you're at work, at home, or on the go.
