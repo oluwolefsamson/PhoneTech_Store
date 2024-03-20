@@ -1,7 +1,10 @@
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
+import Contact from './components/Contact/Contact';
 import Feature from './components/Feature/Feature';
 import FeatureList from './components/FeatureList/FeatureList';
+import Footer from './components/Footer/Footer';
+import GetStarted from './components/GetStarted/GetStarted';
 import Hero from './components/Hero/Hero';
 import Logo from './components/Logos/Logo';
 import Navbar from './components/Navbar/Navbar';
@@ -23,6 +26,9 @@ function App() {
       < ProductList />
       < AboutUs />
       < Team />
+      < GetStarted />
+      < Contact />
+      < Footer />
     </>
   );
 }
