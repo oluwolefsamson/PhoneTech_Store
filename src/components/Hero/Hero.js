@@ -19,9 +19,9 @@ const Hero = () => {
                 </div> 
             </div>
             <div 
-             data-aos="fade-left"
-             data-aos-offset="300"
-             data-aos-easing="ease-in-sine"
+            //  data-aos="fade-left"
+            //  data-aos-offset="300"
+            //  data-aos-easing="ease-in-sine"
             className='hero-img1'>
              <img src='hero-img1.jpg' alt='hero-img' loading='lazy'/>
             </div>

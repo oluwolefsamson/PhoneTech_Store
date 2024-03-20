@@ -40,8 +40,12 @@ export default function Contact() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
+        <h2 
+        data-aos="zoom-in-up"
+        className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact sales</h2>
+        <p 
+        data-aos="zoom-in-down"
+        className="mt-2 text-lg leading-8 text-gray-600">
             If you're interested in contacting our sales team, please feel free to reach out to us through the form below.
         </p>
       </div>
