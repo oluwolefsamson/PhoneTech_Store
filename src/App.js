@@ -17,13 +17,13 @@ import Team from './components/Team/Team';
 function App() {
   return (
     <>
-      < Navbar />
+      {/* < Navbar />
       < Hero />
       < Logo />
-      < Productivity />
+      < Productivity /> */}
       {/* < Feature /> */}
-      < PromoSection />
-      < ProductList />
+      {/* < PromoSection />
+      < ProductList /> */}
       < AboutUs />
       < Team />
       < GetStarted />
