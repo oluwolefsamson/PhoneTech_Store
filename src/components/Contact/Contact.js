@@ -33,10 +33,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+         "service_dr960kp",
+        "template_e9qhjxn",
       form.current, {
-        publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        publicKey: "Wty5bekIHlK31t-gV",
       })
       .then(
         () => {
