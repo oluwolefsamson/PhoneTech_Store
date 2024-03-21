@@ -13,9 +13,10 @@
   ```
 */
 import React from 'react'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 
 function classNames(...classes) {
@@ -24,6 +25,31 @@ function classNames(...classes) {
 
 export default function Contact() {
   const [agreed, setAgreed] = useState(false)
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      form.current, {
+        publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert('Message Sent');
+          form.current.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+  
 
   return (
     <div className="contact-con isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -49,10 +75,11 @@ export default function Contact() {
             If you're interested in contacting our sales team, please feel free to reach out to us through the form below.
         </p>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form onSubmit={sendEmail} ref={form} className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label 
+              htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
               First name
             </label>
             <div className="mt-2.5">
@@ -136,7 +163,7 @@ export default function Contact() {
               </div>
               <input
                 required
-                type="tel"
+                type="Number"
                 name="phone-number"
                 id="phone-number"
                 autoComplete="tel"
@@ -179,12 +206,13 @@ export default function Contact() {
                 />
               </Switch>
             </div>
-            <Switch.Label className="text-sm leading-6 text-gray-600">
-              By selecting this, you agree to our{' '}
-              <a href="#" className="font-semibold text-indigo-600">
-                privacy&nbsp;policy
-              </a>
-              .
+            <Switch.Label 
+              className="text-sm leading-6 text-gray-600">
+                By selecting this, you agree to our{' '}
+                <a href="#" className="font-semibold text-indigo-600">
+                  privacy&nbsp;policy
+                </a>
+                .
             </Switch.Label>
           </Switch.Group>
         </div>
