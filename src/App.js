@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import GetStarted from './components/GetStarted/GetStarted';
 import Hero from './components/Hero/Hero';
 import Logo from './components/Logos/Logo';
+import Map from './components/Map/Map';
 import Navbar from './components/Navbar/Navbar';
 import ProductList from './components/ProductList/ProductList';
 import Productivity from './components/Productivity/Productivity';
@@ -27,6 +28,7 @@ function App() {
       < Team />
       < GetStarted />
       < Contact />
+      < Map />
       < Footer />
     </>
   );
