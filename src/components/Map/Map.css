@@ -2,5 +2,13 @@
  @media screen and (max-width: 1440px) {
     .map {
         width: 1400px;
+        display: none;
+    }
+ }
+
+ 
+ @media screen and (max-width: 1024px) {
+    .map {
+        display: none;
     }
  }

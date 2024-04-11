@@ -1,19 +1,6 @@
 import React from "react"
 import './ProductList.css'
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 const products = [
     {
       id: 1,
@@ -101,7 +88,7 @@ const products = [
               <a key={product.id} href={product.href} className="group">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                   <img
-                    data-aos="zoom-in-down"
+                    data-aos="zoom-out-down"
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="h-full w-full object-cover object-center group-hover:opacity-75"
