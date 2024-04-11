@@ -36,7 +36,7 @@ const products = [
     },
 
     {
-        id: 4,
+        id: 5,
         name: 'Samsung',
         href: '#',
         price: '$35',
@@ -45,7 +45,7 @@ const products = [
       },
 
       {
-        id: 4,
+        id: 6,
         name: 'Samsung',
         href: '#',
         price: '$35',
@@ -54,7 +54,7 @@ const products = [
       },
 
       {
-        id: 4,
+        id: 7,
         name: 'Iphone',
         href: '#',
         price: '$35',
@@ -63,7 +63,7 @@ const products = [
       },
 
       {
-        id: 4,
+        id: 8,
         name: 'Samsung',
         href: '#',
         price: '$35',
